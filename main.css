@@ -1,0 +1,167 @@
+/*Common elements*/
+body {
+    font-size: 67.5%;
+    font-family: Tahoma, Geneva, sans-serif; /*Update Font to Preference...copied this from template*/
+    background-color: black;
+    /*background-image: url(assets/vegetable_background.jpeg); /*fix repeat*/  
+}
+.contentWrapper {
+    margin: 3.5em 2em ;
+    background-image: url(assets/vegetable_background.jpeg);
+}
+
+/*nav bars*/
+
+
+nav {
+    color: #000;
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+
+nav li a, nav li a:visited {
+    text-decoration: none;
+    color:#B26F25;
+    padding: 0.3em 0.6em;
+}
+nav li a:hover {
+    color: #C64322;
+    background-color: rgba(252,251,243,0.);
+}
+
+nav#utilityMenu {
+    float: right;
+    margin:-1.5em 0 0 0;
+    padding: 0.35em;
+    height: .5em;
+    
+    position: absolute;
+    top: 1.5em;
+    right: 1em;
+}
+
+nav#utilityMenu li {
+    margin: auto;
+    vertical-align: top;
+}
+
+nav#utilityMenu ul li.acctNava a, nav#utilityMenu ul li.acctNav a:visited {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    height: 1.3em;
+    padding: 0.5em;
+    margin: -0.4em 0 0 0;
+    font-size: 0.8em;
+}
+
+nav#utilityMenu ul li.acctNav a:hover {
+  
+    color: cornsilk;
+}
+
+nav#utilityMenu li a, nav#utilityMenu li a:visited { padding: 0;}
+nav#utilityMenu li a:hover { background-color: transparent;}
+nav#utilityMenu ul li input#search {
+    vertical-align: middle;
+    margin: 0 0 0 1.0em;
+}
+
+nav#utilityMenu ul li.acctNav:before, nav#utilityMenu ul li input#search:before {
+    content: "| ";
+    color: #FCFBE6;
+}
+
+
+
+ /*Main content */
+#sidebar-right {
+    margin: 2em;
+    padding: 2em 1em 0 1em;
+    width: 20em;
+    float: right;
+    background-color: cornsilk;
+    position: absolute;
+    right: 2em;
+    top: 40em;
+
+}
+#sidebar-right h1 {
+    text-align: center;
+}
+#sidebar-left {
+    margin: 2em;
+    padding: 2em 1em 0 1em;
+    width: 15em;
+    float: left;
+    background-color: cornsilk;
+}
+
+#main-wrapper {
+    margin: auto;
+    padding: 3em;
+    width: 50em;
+    background-color: cornsilk;
+    border: solid #B26F25 1em;
+}
+
+.groceryPanel {
+    width: 15em;
+    height: 10em;
+    border: .5em solid black;
+    border-radius: 3em;
+    margin: 1em 3em  0;
+    float: left
+}
+
+
+
+/*Footer*/
+
+footer {
+    background-color:black;
+    height: 10px;
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    padding: .5em 2.0em;
+}
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+footer ul li::before {
+    content: "| ";
+    padding-right: 0.7em;
+}
+footer a, footer a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
